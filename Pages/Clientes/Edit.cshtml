@@ -1,0 +1,61 @@
+@page "{id:int}"
+@model Proyecto_Software.Pages.Clientes.EditModel
+
+<h2>Editar Cliente</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Cliente.ID" />
+
+    <div class="form-group">
+        <label asp-for="Cliente.PrimerNombre" class="control-label"></label>
+        <input asp-for="Cliente.PrimerNombre" class="form-control" />
+        <span asp-validation-for="Cliente.PrimerNombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.SegundoNombre" class="control-label"></label>
+        <input asp-for="Cliente.SegundoNombre" class="form-control" />
+        <span asp-validation-for="Cliente.SegundoNombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.PrimerApellido" class="control-label"></label>
+        <input asp-for="Cliente.PrimerApellido" class="form-control" />
+        <span asp-validation-for="Cliente.PrimerApellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.SegundoApellido" class="control-label"></label>
+        <input asp-for="Cliente.SegundoApellido" class="form-control" />
+        <span asp-validation-for="Cliente.SegundoApellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Correo" class="control-label"></label>
+        <input asp-for="Cliente.Correo" class="form-control" />
+        <span asp-validation-for="Cliente.Correo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Direccion" class="control-label"></label>
+        <input asp-for="Cliente.Direccion" class="form-control" />
+        <span asp-validation-for="Cliente.Direccion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Compania" class="control-label"></label>
+        <input asp-for="Cliente.Compania" class="form-control" />
+        <span asp-validation-for="Cliente.Compania" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Nota" class="control-label"></label>
+        <textarea asp-for="Cliente.Nota" class="form-control"></textarea>
+        <span asp-validation-for="Cliente.Nota" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-page="./Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
