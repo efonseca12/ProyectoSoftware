@@ -11,6 +11,8 @@ namespace Proyecto_Software.Data
         {
         }
 
+ 
         public DbSet<Cliente> Clientes { get; set; }
+      public DbSet<Empleado> Empleado { get; set; }  
     }
 }

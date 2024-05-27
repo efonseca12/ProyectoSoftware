@@ -68,3 +68,74 @@ c:\Users\EFonseca\Documents\GitHub\Proyecto Software\bin\Debug\net8.0\runtimes\w
 c:\Users\EFonseca\Documents\GitHub\Proyecto Software\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 c:\Users\EFonseca\Documents\GitHub\Proyecto Software\obj\Debug\net8.0\Proyecto Software.csproj.AssemblyReference.cache
 c:\Users\EFonseca\Documents\GitHub\Proyecto Software\obj\Debug\net8.0\Proyecto.4FAE92F6.Up2Date
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\appsettings.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.staticwebassets.runtime.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.exe
+C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.deps.json
+C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.runtimeconfig.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Proyecto Software.pdb
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Azure.Core.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Azure.Identity.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Drawing.Common.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Memory.Data.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Runtime.Caching.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Security.Permissions.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\System.Windows.Extensions.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.csproj.AssemblyReference.cache
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.AssemblyInfoInputs.cache
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.AssemblyInfo.cs
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.csproj.CoreCompileInputs.cache
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.RazorAssemblyInfo.cache
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.RazorAssemblyInfo.cs
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.sourcelink.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets\msbuild.Proyecto Software.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets\msbuild.build.Proyecto Software.props
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto Software.props
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Proyecto Software.props
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\scopedcss\bundle\Proyecto Software.styles.css
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\scopedcss\projectbundle\Proyecto Software.bundle.scp.css
+C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto.4FAE92F6.Up2Date
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\refint\Proyecto Software.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.pdb
+C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.genruntimeconfig.cache
+C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\ref\Proyecto Software.dll

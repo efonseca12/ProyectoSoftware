@@ -1,0 +1,43 @@
+@page
+@model Proyecto_Software.Pages.Empleados.IndexModel
+
+
+<h2>Lista de Empleados</h2>
+<p>
+    <a asp-page="Create">Crear Nuevo Empleado</a>
+</p>
+<p>
+    <a asp-page="/Clientes/Index">Ir al Index de Cliente</a>
+</p>
+
+<form method="get">
+    <div class="form-group">
+        <input type="text" class="form-control" name="searchString" placeholder="Buscar empleados">
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Empleados)
+        {
+            <tr>
+                <td>@item.Nombres @item.Apellidos</td>
+                <td>@item.Correo</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-page="Details" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-page="Delete" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

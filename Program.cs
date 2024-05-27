@@ -36,9 +36,12 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Clientes}/{action=Index}/{id?}");
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/Clientes/Index");
+    return Task.CompletedTask;
+});
+
 
 app.MapRazorPages();
 

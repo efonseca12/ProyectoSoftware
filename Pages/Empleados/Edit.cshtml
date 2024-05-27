@@ -1,0 +1,98 @@
+@page
+@model Proyecto_Software.Pages.Empleados.EditModel
+@{
+    ViewData["Title"] = "Editar Empleado";
+}
+
+<h2>Editar Empleado</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Empleado.Id" />
+
+    <div class="form-group">
+        <label asp-for="Empleado.Cedula" class="control-label"></label>
+        <input asp-for="Empleado.Cedula" class="form-control" />
+        <span asp-validation-for="Empleado.Cedula" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Empleado.Nombres" class="control-label"></label>
+        <input asp-for="Empleado.Nombres" class="form-control" />
+        <span asp-validation-for="Empleado.Nombres" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Empleado.Apellidos" class="control-label"></label>
+        <input asp-for="Empleado.Apellidos" class="form-control" />
+        <span asp-validation-for="Empleado.Apellidos" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.FechaNacimiento" class="control-label"></label>
+        <input asp-for="Empleado.FechaNacimiento" type="date" class="form-control" />
+        <span asp-validation-for="Empleado.FechaNacimiento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Departamento" class="control-label"></label>
+        <input asp-for="Empleado.Departamento" class="form-control" />
+        <span asp-validation-for="Empleado.Departamento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Municipio" class="control-label"></label>
+        <input asp-for="Empleado.Municipio" class="form-control" />
+        <span asp-validation-for="Empleado.Municipio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Direccion" class="control-label"></label>
+        <input asp-for="Empleado.Direccion" class="form-control" />
+        <span asp-validation-for="Empleado.Direccion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Telefono" class="control-label"></label>
+        <input asp-for="Empleado.Telefono" class="form-control" />
+        <span asp-validation-for="Empleado.Telefono" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Celular" class="control-label"></label>
+        <input asp-for="Empleado.Celular" class="form-control" />
+        <span asp-validation-for="Empleado.Celular" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Correo" class="control-label"></label>
+        <input asp-for="Empleado.Correo" class="form-control" />
+        <span asp-validation-for="Empleado.Correo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.FechaIngreso" class="control-label"></label>
+        <input asp-for="Empleado.FechaIngreso" type="date" class="form-control" />
+        <span asp-validation-for="Empleado.FechaIngreso" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Profesion" class="control-label"></label>
+        <input asp-for="Empleado.Profesion" class="form-control" />
+        <span asp-validation-for="Empleado.Profesion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Puesto" class="control-label"></label>
+        <input asp-for="Empleado.Puesto" class="form-control" />
+        <span asp-validation-for="Empleado.Puesto" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Salario" class="control-label"></label>
+        <input asp-for="Empleado.Salario" type="number" step="0.01" class="form-control" />
+        <span asp-validation-for="Empleado.Salario" class="text-danger"></span>
+    </div>
+
+  <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+</form>

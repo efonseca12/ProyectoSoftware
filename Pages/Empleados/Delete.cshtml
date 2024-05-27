@@ -1,0 +1,74 @@
+@page
+@model Proyecto_Software.Pages.Empleados.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar Empleado";
+}
+
+<h2>Eliminar Empleado</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Empleado.Id" />
+
+    <div class="form-group">
+        <label asp-for="Empleado.Cedula" class="control-label"></label>
+        <input asp-for="Empleado.Cedula" class="form-control" readonly />
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Empleado.Nombres" class="control-label"></label>
+        <input asp-for="Empleado.Nombres" class="form-control" readonly />
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Empleado.Apellidos" class="control-label"></label>
+        <input asp-for="Empleado.Apellidos" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.FechaNacimiento" class="control-label"></label>
+        <input asp-for="Empleado.FechaNacimiento" type="date" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Departamento" class="control-label"></label>
+        <input asp-for="Empleado.Departamento" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Municipio" class="control-label"></label>
+        <input asp-for="Empleado.Municipio" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Direccion" class="control-label"></label>
+        <input asp-for="Empleado.Direccion" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Telefono" class="control-label"></label>
+        <input asp-for="Empleado.Telefono" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Celular" class="control-label"></label>
+        <input asp-for="Empleado.Celular" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Profesion" class="control-label"></label>
+        <input asp-for="Empleado.Profesion" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Puesto" class="control-label"></label>
+        <input asp-for="Empleado.Puesto" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Empleado.Salario" class="control-label"></label>
+        <input asp-for="Empleado.Salario" type="number" step="0.01" class="form-control" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-danger">Confirmar eliminación</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zRP38IJniANjQNLF5CnReeyvd8i0de3wUzMpZ8rkudZxBob4smuP04aYAEhpcmF5xoUY0gdxE2gwoJOOK960LQ==",
+  "dgSpecHash": "qlmDhfp47/jpfiBPwT26HrqX1mX5iGgoyMwL5cnoMm4+LE/fjem1CZlMkAMmMGeCwcN+O5+7590fcTq1TxSh8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EFonseca\\Documents\\GitHub\\Proyecto Software\\Proyecto Software.csproj",
+  "projectFilePath": "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EFonseca\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\EFonseca\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
