@@ -4,6 +4,7 @@ using Proyecto_Software.Data;
 using Proyecto_Software.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace Proyecto_Software.Controllers
 {
@@ -147,5 +148,27 @@ namespace Proyecto_Software.Controllers
         {
             return _context.Empleado.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> Index(string searchString, int? pageNumber)
+        {
+            IQueryable<Empleado> empleadosIQ = from e in _context.Empleado
+                                               select e;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                empleadosIQ = empleadosIQ.Where(e =>
+                    e.Nombres.Contains(searchString) ||
+                    e.Apellidos.Contains(searchString) ||
+                    e.Correo.Contains(searchString));
+            }
+
+            int pageSize = 10;
+            pageNumber = pageNumber ?? 1;
+            var empleados = await empleadosIQ.ToPagedListAsync(pageNumber.Value, pageSize);
+
+            return View(empleados);
+        }
+
+       
     }
 }

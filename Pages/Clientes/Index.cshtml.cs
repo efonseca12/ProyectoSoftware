@@ -3,8 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_Software.Data;
 using Proyecto_Software.Models;
 using Proyecto_Software.Models.Proyecto_Software.Models;
-using System.Collections.Generic;
+using System;
+using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace Proyecto_Software.Pages.Clientes
 {
@@ -15,26 +17,30 @@ namespace Proyecto_Software.Pages.Clientes
         public IndexModel(ClientesContext context)
         {
             _context = context;
-            Clientes = new List<Cliente>();  // Inicializa la propiedad Clientes
         }
 
-        public IList<Cliente> Clientes { get; set; }
+        public IPagedList<Cliente> Clientes { get; set; }
+        public string CurrentFilter { get; set; }
+        public int? PageNumber { get; set; }
 
-       
-        public async Task OnGetAsync(string searchString)
-{
-    IQueryable<Cliente> clientesIQ = _context.Clientes;
+        public async Task OnGetAsync(string searchString, int? pageNumber)
+        {
+            CurrentFilter = searchString;
 
-    if (!string.IsNullOrEmpty(searchString))
-    {
-        clientesIQ = clientesIQ.Where(c =>
-            c.PrimerNombre.Contains(searchString) ||
-            c.PrimerApellido.Contains(searchString) ||
-            c.Correo.Contains(searchString));
-    }
+            IQueryable<Cliente> clientesIQ = from c in _context.Clientes
+                                             select c;
 
-    Clientes = await clientesIQ.ToListAsync();
-}
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                clientesIQ = clientesIQ.Where(c =>
+                    c.PrimerNombre.Contains(searchString) ||
+                    c.PrimerApellido.Contains(searchString) ||
+                    c.Correo.Contains(searchString));
+            }
 
+            int pageSize = 10;
+            PageNumber = pageNumber ?? 1;
+            Clientes = await clientesIQ.ToPagedListAsync(PageNumber ?? 1, pageSize);
+        }
     }
 }

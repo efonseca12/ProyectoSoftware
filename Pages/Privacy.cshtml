@@ -1,30 +1,12 @@
 ﻿@page
-@model Proyecto_Software.Pages.Clientes.IndexModel
+@model Proyecto_Software.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "Política de privacidad";
+}
 
-<h2>Lista de Clientes</h2>
-<p>
-    <a asp-page="Create">Crear Nuevo Cliente</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Correo</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Clientes)
-        {
-            <tr>
-                <td>@item.PrimerNombre @item.PrimerApellido</td>
-                <td>@item.Correo</td>
-                <td>
-                    <a asp-page="Edit" asp-route-id="@item.ID">Editar</a> |
-                    <a asp-page="Details" asp-route-id="@item.ID">Detalles</a> |
-                    <a asp-page="Delete" asp-route-id="@item.ID">Eliminar</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <p>Esta página está dedicada a nuestra política de privacidad. Aquí puedes encontrar información sobre cómo manejamos la privacidad de los datos de nuestros usuarios.</p>
+    <p>Para obtener más información, consulta la <a href="https://privacy.microsoft.com/" target="_blank">Política de privacidad de Microsoft</a>.</p>
+</div>

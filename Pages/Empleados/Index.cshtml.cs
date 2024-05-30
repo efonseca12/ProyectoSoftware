@@ -1,11 +1,11 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Proyecto_Software.Data;
 using Proyecto_Software.Models;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using X.PagedList;
 
 namespace Proyecto_Software.Pages.Empleados
 {
@@ -18,20 +18,28 @@ namespace Proyecto_Software.Pages.Empleados
             _context = context;
         }
 
-        public IList<Empleado> Empleados { get; set; }
+        public IPagedList<Empleado> Empleados { get; set; }
+        public string CurrentFilter { get; set; }
+        public int? PageNumber { get; set; }
 
-        public async Task OnGetAsync(string searchString)
+        public async Task OnGetAsync(string searchString, int? pageNumber)
         {
+            CurrentFilter = searchString;
+
             IQueryable<Empleado> empleadosIQ = from e in _context.Empleado
                                                select e;
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                empleadosIQ = empleadosIQ.Where(e => e.Nombres.Contains(searchString)
-                                            || e.Apellidos.Contains(searchString));
+                empleadosIQ = empleadosIQ.Where(e =>
+                    e.Nombres.Contains(searchString) ||
+                    e.Apellidos.Contains(searchString) ||
+                    e.Correo.Contains(searchString));
             }
 
-            Empleados = await empleadosIQ.ToListAsync();
+            int pageSize = 10;
+            PageNumber = pageNumber ?? 1;
+            Empleados = await empleadosIQ.ToPagedListAsync(PageNumber ?? 1, pageSize);
         }
     }
 }

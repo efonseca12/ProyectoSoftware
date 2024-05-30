@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_Software.Data;
 using Proyecto_Software.Models;
 using Proyecto_Software.Models.Proyecto_Software.Models;
+using X.PagedList;
 
 namespace Proyecto_Software.Controllers
 {
@@ -147,6 +148,25 @@ namespace Proyecto_Software.Controllers
         private bool ClienteExists(int id)
         {
             return _context.Clientes.Any(e => e.ID == id);
+        }
+         public async Task<IActionResult> Index(string searchString, int? pageNumber)
+        {
+            IQueryable<Cliente> clientesIQ = from c in _context.Clientes
+                                             select c;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                clientesIQ = clientesIQ.Where(c =>
+                    c.PrimerNombre.Contains(searchString) ||
+                    c.PrimerApellido.Contains(searchString) ||
+                    c.Correo.Contains(searchString));
+            }
+
+            int pageSize = 10;
+            pageNumber = pageNumber ?? 1;
+            var clientes = await clientesIQ.ToPagedListAsync(pageNumber.Value, pageSize);
+
+            return View(clientes);
         }
     }
 }

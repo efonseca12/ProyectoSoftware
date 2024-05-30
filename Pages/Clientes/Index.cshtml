@@ -1,21 +1,21 @@
 @page
 @model Proyecto_Software.Pages.Clientes.IndexModel
+@using X.PagedList.Mvc.Core
 
 <h2>Lista de Clientes</h2>
+
 <p>
     <a asp-page="Create">Crear Nuevo Cliente</a>
 </p>
 <p>
-    <a asp-page="/Empleados/Index">Ir al índice de Empleados</a>
+    <a asp-page="/Empleados/Index">Ir al Index de Empleados</a>
 </p>
-
 <form method="get">
     <div class="form-group">
-        <input type="text" class="form-control" name="searchString" placeholder="Buscar Clientes">
+        <input type="text" class="form-control" name="searchString" placeholder="Buscar clientes">
     </div>
     <button type="submit" class="btn btn-primary">Buscar</button>
 </form>
-
 
 <table class="table">
     <thead>
@@ -40,3 +40,17 @@
         }
     </tbody>
 </table>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @if (Model.Clientes.PageCount > 0)
+        {
+            for (int i = 1; i <= Model.Clientes.PageCount; i++)
+            {
+                <li class="page-item @(Model.Clientes.PageNumber == i ? "active" : "")">
+                    <a class="page-link" asp-page="./Index" asp-route-page="@i">@i</a>
+                </li>
+            }
+        }
+    </ul>
+</nav>
