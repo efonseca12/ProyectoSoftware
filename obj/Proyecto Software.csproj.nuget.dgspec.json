@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj": {}
+    "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj": {
+    "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
+        "projectUniqueName": "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
         "projectName": "Proyecto Software",
-        "projectPath": "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
+        "projectPath": "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
         "packagesPath": "C:\\Users\\EFonseca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\obj\\",
+        "outputPath": "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

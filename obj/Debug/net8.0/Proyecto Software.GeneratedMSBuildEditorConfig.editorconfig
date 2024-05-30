@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto_Software
 build_property.RootNamespace = Proyecto_Software
-build_property.ProjectDir = C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\
+build_property.ProjectDir = c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware
+build_property.MSBuildProjectDirectory = c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Create.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Delete.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Details.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Edit.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Index.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Create.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Delete.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Details.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Edit.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Index.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Empleados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Error.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Privacy.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/_ViewImports.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/_ViewStart.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Shared/_Layout.cshtml]
+[c:/Users/EFonseca/Documents/GitHub/ProyectoSoftware/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4cula1jqmj
