@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "auSl8RiXGFUXS3fFHmVxopEwOzQPQI+TAWSYI33sqY5XT25b7f5g1UXqrGQ/E9gHJJbnkcXYUIy8Vv0siRGAWA==",
+  "dgSpecHash": "SwShOnKJafZsZRlEc9AvZlr3vQd4RaEyMl3VPIynMXduupDFXbzRsMLQb6pMKL1sPNkGPf3qlw67BwJDwIwRcQ==",
   "success": true,
   "projectFilePath": "c:\\Users\\EFonseca\\Documents\\GitHub\\ProyectoSoftware\\Proyecto Software.csproj",
   "expectedPackageFiles": [
@@ -58,7 +58,9 @@
     "C:\\Users\\EFonseca\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\EFonseca\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\EFonseca\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\EFonseca\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\EFonseca\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\EFonseca\\.nuget\\packages\\x.pagedlist\\9.1.2\\x.pagedlist.9.1.2.nupkg.sha512",
+    "C:\\Users\\EFonseca\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512"
   ],
   "logs": []
 }

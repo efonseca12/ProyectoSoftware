@@ -139,3 +139,6 @@ c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\refint\Proy
 c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.pdb
 C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.genruntimeconfig.cache
 C:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\ref\Proyecto Software.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\obj\Debug\net8.0\Proyecto Software.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\X.PagedList.dll
+c:\Users\EFonseca\Documents\GitHub\ProyectoSoftware\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll

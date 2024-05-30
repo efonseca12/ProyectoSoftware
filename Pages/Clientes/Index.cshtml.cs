@@ -20,9 +20,21 @@ namespace Proyecto_Software.Pages.Clientes
 
         public IList<Cliente> Clientes { get; set; }
 
-        public async Task OnGetAsync()
-        {
-            Clientes = await _context.Clientes.ToListAsync();
-        }
+       
+        public async Task OnGetAsync(string searchString)
+{
+    IQueryable<Cliente> clientesIQ = _context.Clientes;
+
+    if (!string.IsNullOrEmpty(searchString))
+    {
+        clientesIQ = clientesIQ.Where(c =>
+            c.PrimerNombre.Contains(searchString) ||
+            c.PrimerApellido.Contains(searchString) ||
+            c.Correo.Contains(searchString));
+    }
+
+    Clientes = await clientesIQ.ToListAsync();
+}
+
     }
 }
